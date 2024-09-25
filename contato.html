@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituição de Ensino</title>
+    <!-- Favicon é o icone que aparece no navegador -->
+    <link rel="icon" href="img/favicon.ico" type="img/favicon">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu de Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="https://logodownload.org/wp-content/uploads/2019/08/senai-logo-0.png" alt="Logo da Instituição">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações.</p>
+        </section>
+
+        <!--tabela do formulário-->
+    <table
+    style="font-size:large; border-radius: 20px; font-family: monospace; background-color: #e8edee; color: #050230; border: 1PX solid black; padding: 10px; width: 50%; margin: 0 auto;">
+    <tr>
+        <td>
+            <form>
+                <!--formulário de contato-->
+                <table border="0">
+                    <tr>
+                        <th style="text-align: right;"> <label for="name">Nome*:</label></th>
+                        <td><input style="border-radius: 7px" type="text" id="name" name="name" required> </td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: right;"> <label for="email">Email*:</label></th>
+                        <td> <input style="border-radius: 7px" type="email" id="email" name="email" text-align="left" required></td>
+                    </tr>
+
+                    <tr>
+                        <th style="text-align: right;"> <label for="message">Mensagem*:</label></th>
+                        <td> <textarea style="border-radius: 7px" type="message" id="message" name="message"
+                                rows="4" cols="40" required> </textarea></td>
+                    </tr>
+                </table>
+                <!-- botão -->
+                <input
+                    style="display: block; margin: 0 auto; font-size:large; border-radius: 7px; font-family:Verdana, Geneva, Tahoma, sans-serif; background-color: #063342; color: aquamarine;"
+                    type="submit" value="Enviar!">
+            </form>
+        </td>
+    </tr>
+</table>
+      
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Instituição de Ensino. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
